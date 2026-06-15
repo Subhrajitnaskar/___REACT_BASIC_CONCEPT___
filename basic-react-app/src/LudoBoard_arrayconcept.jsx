@@ -12,7 +12,6 @@ export default function LudoBoard () {
         // setMoves ((prevMoves) => {
         //     return { ...prevMoves, blue: prevMoves.blue + 1};
         // });
-
         // arr.push("blue moves");// jokhonoiu blue update hobe tokhon array te push hobe.
         // SetArr([...arr, "blue moves"]); old method.
         SetArr((prevArr) => {

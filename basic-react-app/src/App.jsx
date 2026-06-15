@@ -10,14 +10,15 @@
 //   return <button>hello wrold</button>
 // }
 
-import './App.css'
-import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
+import "./App.css";
+// import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
+import TodoList from "./TodoList";
 
 function App() {
     return (
 
         <>
-            <LudoBoard_arrayconcept />
+            <TodoList />
             
         </>
 
