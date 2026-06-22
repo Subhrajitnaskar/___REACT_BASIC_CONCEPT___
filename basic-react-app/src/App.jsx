@@ -11,16 +11,17 @@
 // }
 
 import "./App.css";
-// import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
+import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
 import TodoList from "./TodoList";
 import CreateTodoListMarkasDone from "./CreateTodoListMarkasDone";
+import Lottery from "./Lottery";
 
 function App() {
     return (
 
         <>
             
-           < CreateTodoListMarkasDone />
+           < Lottery />
             
         </>
 
