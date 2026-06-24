@@ -11,17 +11,29 @@
 // }
 
 import "./App.css";
-import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
-import TodoList from "./TodoList";
-import CreateTodoListMarkasDone from "./CreateTodoListMarkasDone";
+// import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
+// import TodoList from "./TodoList";
+// import CreateTodoListMarkasDone from "./CreateTodoListMarkasDone";
 import Lottery from "./Lottery";
+// import TicketNum from "./TicketNum";
+// import Ticket from "./Ticket";
+import { sum } from "./helper";
 
 function App() {
+
+    let winCondition = (ticket) => {
+        // return sum(ticket) === 15;
+        // return ticket.every((num) => num === ticket[0]);
+        return ticket[0] === 0;
+    };
+
     return (
 
         <>
             
-           < Lottery />
+           {/* < Ticket ticket={[0, 1, 2]} />
+            < Ticket ticket={[2, 8, 5, 7]} /> */}
+              <Lottery n={3} winningSum={15}/>
             
         </>
 
