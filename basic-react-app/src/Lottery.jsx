@@ -8,7 +8,7 @@ export default function Lottery({ n=3, winningSum }) {
     let [ticket, setTicket] = useState(genTicket(3));
     let isWinning = winCondition(ticket);
 
-    let buyTicket = () => {
+    let buyTicket = () => {       
         setTicket(genTicket(n));
     }
 
@@ -17,7 +17,7 @@ export default function Lottery({ n=3, winningSum }) {
             <h1>Lottery Game!</h1>
             <Ticket ticket={ticket}/>
             {/* <button onClick={buyTicket}>Buy New Ticket</button> */}
-            <Button action={buyTicket} />
+            <Button action={buyTicket} />    
             <h3>{isWinning && "congratulation, you won!"}</h3>
         </div>
     );

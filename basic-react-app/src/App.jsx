@@ -14,26 +14,28 @@ import "./App.css";
 // import LudoBoard_arrayconcept from "./LudoBoard_arrayconcept";
 // import TodoList from "./TodoList";
 // import CreateTodoListMarkasDone from "./CreateTodoListMarkasDone";
-import Lottery from "./Lottery";
+// import Lottery from "./Lottery";
 // import TicketNum from "./TicketNum";
 // import Ticket from "./Ticket";
-import { sum } from "./helper";
+// import { sum } from "./helper";
+import CommentsForm from "./CommentsForm";
+import Comment from "./Comment";
+
 
 function App() {
 
-    let winCondition = (ticket) => {
-        // return sum(ticket) === 15;
-        // return ticket.every((num) => num === ticket[0]);
-        return ticket[0] === 0;
-    };
+    // let winCondition = (ticket) => {
+    //     // return sum(ticket) === 15;
+    //     // return ticket.every((num) => num === ticket[0]);
+    //     return ticket[0] === 0;
+    // };
 
     return (
 
         <>
             
-           {/* < Ticket ticket={[0, 1, 2]} />
-            < Ticket ticket={[2, 8, 5, 7]} /> */}
-              <Lottery n={3} winningSum={15}/>
+          <Comment />
+           {/* <CommentsForm /> */}
             
         </>
 
