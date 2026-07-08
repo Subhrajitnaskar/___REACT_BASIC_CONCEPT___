@@ -18,8 +18,9 @@ import "./App.css";
 // import TicketNum from "./TicketNum";
 // import Ticket from "./Ticket";
 // import { sum } from "./helper";
-import CommentsForm from "./CommentsForm";
-import Comment from "./Comment";
+// import CommentsForm from "./CommentsForm";
+// import Comment from "./Comment";
+import CommentFrom_formik from "./CommentFrom_formik";
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
 
         <>
             
-          <Comment />
+          <CommentFrom_formik />
            {/* <CommentsForm /> */}
             
         </>
