@@ -20,7 +20,7 @@ import "./App.css";
 // import { sum } from "./helper";
 // import CommentsForm from "./CommentsForm";
 // import Comment from "./Comment";
-// import CommentFrom_formik from "./CommentFrom_formik";
+// import CommentFromformik from "./CommentFromformik";
 // import Counter from "./Counter";
 // import Counterpart2 from "./Counterpart2";
 // import Joker from "./Joker";
@@ -39,7 +39,7 @@ function App() {
 
         <>
             
-          {/* <CommentFrom_formik /> */}
+          {/* <CommentFromformik /> */}
            {/* <CommentsForm /> */}
            {/* <Counterpart2 /> */}
            {/* <Joker /> */}
